@@ -1,0 +1,19 @@
+{
+  "mongoURI": "mongodb://localhost:27017/cryptocurrency_platform",
+  "jwtSecret": "your_jwt_secret_key",
+  "jwtExpiration": "24h",
+  "apiKeys": {
+    "coinMarketCap": "your_coinmarketcap_api_key",
+    "binance": "your_binance_api_key"
+  },
+  "email": {
+    "service": "gmail",
+    "auth": {
+      "user": "your_email@gmail.com",
+      "pass": "your_app_password"
+    }
+  },
+  "server": {
+    "port": 5000
+  }
+}
